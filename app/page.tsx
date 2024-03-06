@@ -6,12 +6,12 @@ const frameMetadata = getFrameMetadata({
   buttons: [
     {
       action: 'link',
-      label: 'Mint on OpenSea!',
+      label: 'Mint NFT on OpenSea!',
       target: 'https://opensea.io/collection/prosocial-heroes-series-1-1',
     },
     {
       action: 'link',
-      label: 'Mint on Hypersub!',
+      label: 'Mint NFT on Hypersub!',
       target: 'https://hypersub.withfabric.xyz/collection/prosocial-heroes-c16v7c71nlz4',
     },
     // {
