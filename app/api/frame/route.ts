@@ -32,26 +32,26 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 
   return new NextResponse(
     getFrameHtmlResponse({
-      buttons: [
-        {
-          label: `Story: ${text}`,
-        },
-        {
-          label: `State: ${state?.page || 0}`,
-        },
-        {
-          action: 'post_redirect',
-          label: 'Cute dog pictures',
-        },
-      ],
+      // buttons: [
+      //   {
+      //     label: `Story: ${text}`,
+      //   },
+      //   {
+      //     label: `State: ${state?.page || 0}`,
+      //   },
+      //   {
+      //     action: 'post_redirect',
+      //     label: 'Cute dog pictures',
+      //   },
+      // ],
       image: {
-        src: `${NEXT_PUBLIC_URL}/park-1.png`,
+        src: `${NEXT_PUBLIC_URL}/prosocialise.png`,
       },
-      postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
-      state: {
-        page: state?.page + 1,
-        time: new Date().toISOString(),
-      }
+      // postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
+      // state: {
+      //   page: state?.page + 1,
+      //   time: new Date().toISOString(),
+      // }
     }),
   );
 }
