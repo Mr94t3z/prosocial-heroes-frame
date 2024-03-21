@@ -22,7 +22,6 @@ const frameMetadata = getFrameMetadata({
   ],
   image: {
     src: `${NEXT_PUBLIC_URL}/prosocialise.jpg`,
-    aspectRatio: '1:1',
   },
   // input: {
   //   text: 'Tell me a story',
